@@ -101,8 +101,12 @@ img {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 8px;
-    padding: 36px 500px;
+    gap: 20px;
+    padding: 36px 400px;
+}
+
+.section-two .info {
+    width: 200px;
 }
 
 .section-three {
@@ -117,8 +121,8 @@ img {
     font-style: italic;
     font-size: 30px;
     color: #1F2937;
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 700px;
+    padding-right: 700px;
     padding-top: 60px;
     padding-bottom: 20px;
     text-align: left;
