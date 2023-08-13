@@ -1,0 +1,160 @@
+body {
+    height: 100vh;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.header {
+    background-color: #1F2937;
+    padding: 20px 300px;
+    display: flex;
+    justify-content: center;
+    gap: 700px;
+    align-items: center;
+}
+
+.left-link {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.right-links {
+    display: flex;
+    gap: 16px;
+    font-size: 18px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color:#f9faf8;
+}
+
+.section-one {
+    background-color: #1F2937;
+    padding: 50px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 500px;
+    color: #f9faf8;
+}
+
+.container-one {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+button {
+    background-color:#3882f6;
+    padding: 5px 15px;
+    margin-top: 10px;
+    border-color: #f9faf8;
+    border-radius: 10%;
+}
+
+.container-two {
+    display:flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+#image-one {
+    display: flex; 
+    width: 400px;
+    border: none;
+    padding-bottom: 10px;
+}
+
+img {
+    height:200px;
+    width: 200px;
+    border-style: solid;
+    border-color: #3882f6;
+    border-radius: 7%;
+}
+
+.text {
+    font-size: 18px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px; 
+    font-weight: bolder; 
+    color:#1F2937;
+    margin: 30px 0;
+}
+
+.section-two {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    padding: 36px 500px;
+}
+
+.section-three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb
+}
+
+.quote {
+    font-style: italic;
+    font-size: 30px;
+    color: #1F2937;
+    padding-left: 300px;
+    padding-right: 300px;
+    padding-top: 60px;
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+.accreditation {
+    font-weight: bold;
+    padding-bottom: 10px;
+}
+
+.section-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.call {
+    background-color: #3882f6;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin: 50px;
+    padding: 20px 100px;
+    color: #f9faf8;
+}
+
+.section-four .big-text {
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    color: #f9faf8;
+    background-color: #1F2937;
+    padding: 32px;
+}
